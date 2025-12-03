@@ -23,6 +23,9 @@ Ideal para treinar estruturação de páginas e organização de conteúdo.
 
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css"/>
 
+## 🔗 Link do Repositório
+
+[GitHub - Barbearia Estilo](https://github.com/Gleicekeli12/barbearia-estilo)
 
 ## 📂 Estrutura do Projeto
 
