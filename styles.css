@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #2d8795;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #0b7087;
+}
+
+.topo {
+    text-align: center;
+    padding: 120px 20px 60px;
+    background: #000;
+}
+
+.topo h1 {
+    font-size: 60px;
+    color: #2d8795;
+    font-weight: 700;
+}
+
+.headline {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #ddd;
+    font-weight: 400;
+}
+
+.destaque {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.servicos {
+    text-align: center;
+    padding: 60px 20px;
+    background: #1a1a1a;
+}
+
+.servicos h2 {
+    font-size: 32px;
+    color: #2d8795;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+.servicos ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.servicos li {
+    margin: 10px 0;
+    color: white;
+}
+
+.valores {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.galeria {
+    padding: 60px 20px;
+    background: #222;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-size: 32px;
+    color: #2d8795;
+    margin-bottom: 30px;
+}
+
+.galeria .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+.agendamento {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+}
+
+.agendamento h2 {
+    font-size: 32px;
+    color: #2d8795;
+    margin-bottom: 20px;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #25d366;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-whatsapp i {
+    margin-right: 10px;
+    font-size: 26px;
+}
+
+.bnt-whatsapp:hover {
+    background: #1ebe5c;
+    transform: scale(1.05);
+}
+
+.sobre {
+    padding: 60px 20px;
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    color: #2d8795;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    color: white;
+}
+
+.rodape {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
